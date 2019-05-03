@@ -50,17 +50,28 @@ const Header = props => {
           </Button>
           <Button
             color="black"
-            style={{ paddingLeft: "25px", fontWeight: "bold" }}
+            style={{
+              paddingLeft: "25px",
+              fontWeight: "bold",
+              fontSize: "15px"
+            }}
           >
             Gallery
           </Button>
           <Button
             color="black"
-            style={{ paddingLeft: "25px", fontWeight: "bold" }}
+            style={{
+              paddingLeft: "25px",
+              fontWeight: "bold",
+              fontSize: "15px"
+            }}
           >
             About
           </Button>
-          <Button color="black" style={{ fontWeight: "bold" }}>
+          <Button
+            color="black"
+            style={{ fontWeight: "bold", fontSize: "15px" }}
+          >
             Login{" "}
           </Button>
         </Toolbar>
