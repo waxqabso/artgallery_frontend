@@ -7,7 +7,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
-import Paint from './4.png'
+import Paint from './Banner.jpg'
 
 const styles = theme => ({
     root: {
@@ -28,29 +28,8 @@ function ComplexGrid(props) {
     const { classes } = props;
     return (
         <div className={classes.root} style={{ backgroundColor:'skyblue',  height:'350%'}}>
-         <Grid container spacing={24}>
-       
-        <Grid item xs={12} sm={6}>
-        </Grid>
-        <Grid item xs={12} sm={6} >
-        <div >
-<h1><span>Become</span><br/>
-    <span>Future Painter</span>
-</h1>
-
- <p style={{fontSize:'18px' }}>Use your blood to paint. Keep painting until you faint.<br/> Keep painting until you die.</p>
- <Button style={{paddingLeft:'18px' ,width:'118px'}}
-        variant="contained"
-        color="primary"
-        disableRipple
-      
-      >
-        About
-      </Button>
-        </div>
-        </Grid>
-        
-      </Grid>
+                <img classNmae={classes.img} src={Paint} style={{width:'100%'
+}} />
       
 
         </div>
