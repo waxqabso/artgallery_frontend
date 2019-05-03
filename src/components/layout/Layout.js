@@ -29,7 +29,7 @@ function ComplexGrid(props) {
     return (
         <div className={classes.root} style={{ backgroundColor:'skyblue',  height:'350%'}}>
                 <img classNmae={classes.img} src={Paint} style={{width:'100%'
-}} />
+}}  />
       
 
         </div>
