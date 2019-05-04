@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
-import MrArtr from './components/home/mrArt';
+import React from "react";
+import "./App.css";
+import MrArtr from "./components/home/mrArt";
+import Gallery from "./components/Gallery/Gallery";
 function App() {
   return (
     <div className="App">
-     <MrArtr/>
+      <Gallery />
     </div>
   );
 }
